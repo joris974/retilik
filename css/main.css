@@ -156,7 +156,6 @@ html {
   color: #1abc9c;
 }
 
-
 .btn-adapt {
   padding: 12px 22px;
   font-size: 22px;
@@ -164,6 +163,25 @@ html {
   border-width: 2px;
   border-radius: 10px;
 }
+
+.carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 400ms;
+  transition-timing-function: bounce-in-out;
+}
+
+.carousel-inner .active {
+  opacity: 1;
+}
+
+.carousel-inner .active.left,
+.carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
 
 /* ==========================================================================
    Helper classes
