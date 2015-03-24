@@ -109,6 +109,18 @@ html {
   padding-top:7%;
 }
 
+.margin-top-lg {
+  margin-top:  5%;
+}
+
+.margin-bottom-lg {
+  margin-bottom:  5%;
+}
+
+.img-resp {
+  display: inline;
+}
+
 .text-lg {
   font-size:80px;
   color:#34495e;
@@ -144,6 +156,14 @@ html {
   color: #1abc9c;
 }
 
+
+.btn-adapt {
+  padding: 12px 22px;
+  font-size: 22px;
+  border: #FFF solid;
+  border-width: 2px;
+  border-radius: 10px;
+}
 
 /* ==========================================================================
    Helper classes
